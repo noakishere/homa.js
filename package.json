@@ -1,0 +1,20 @@
+{
+	"name": "iranjs",
+	"version": "1.0.0",
+	"description": "Backend API for Iran related information",
+	"main": "server.js",
+	"scripts": {
+		"start": "cross-env NODE_ENV=production node server",
+		"dev": "nodemon server"
+	},
+	"author": "Kamyar Karimi",
+	"license": "MIT",
+	"dependencies": {
+		"dotenv": "^14.0.0",
+		"express": "^4.17.2"
+	},
+	"devDependencies": {
+		"cross-env": "^7.0.3",
+		"nodemon": "^2.0.15"
+	}
+}
